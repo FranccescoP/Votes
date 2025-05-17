@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRX</title>
+    <link rel="stylesheet" href="../css/candidate.css">
+ 
+</head>
+
+<body>
+    <header>
+        <h1>Sistema de votacion</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Volver</a></li>
+                <li><a href="candidate_list.html">Listado de Candidatos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="inicio" class="seccion activa">
+            <h2>Bienvenido al Sistema de Votación</h2>
+            <p>Usa la barra de navegación para realizar acciones.</p>
+        </section>
+
+        <section id="candidato" class="seccion">
+            <h2>Registrar Candidato</h2>
+            <form id="formCandidato">
+                <input type="text" id="nombreCandidato" placeholder="Nombre" required />
+                <input type="text" id="PartidoCandidato" placeholder="Nombre del Partido Politico" required />
+                <button type="submit">Guardar Candidato</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; Voting System 2025</p>
+    </footer>
+
+    <script src="../js/Scandidate.js"></script>
+    
+</body>
+
+</html>

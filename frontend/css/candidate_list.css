@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #002333;
+  margin: 0;
+  padding: 20px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+header {
+  background-color: #015958;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background: #0B2B40;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background: #1E5959;
+  border-radius: 4px;
+}
+
+
+
+.contenedor-candidatos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.card-candidato {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.card-candidato:hover {
+  transform: translateY(-5px);
+}
+
+.card-candidato h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.card-candidato p {
+  color: #666;
+}

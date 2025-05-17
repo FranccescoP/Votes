@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/voter.css">
+    <title>Register Vote</title>
+</head>
+
+<body>
+    <header>
+        <h3>Navegacion</h3>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Index</a></li>
+                 <li><a href="voter/voter_list.html" > List Voters </a></li>
+                  <li><a href="candidate/candidate_list.html">List Candidates</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <h1>Vote</h1>
+
+    <form id="formVoto">
+        <label for="dni">DNI del votante:</label>
+        <input type="text" id="dni" name="dni" required />
+
+        <label for="PartidoCandidato">Choose a match:</label>
+        <select id="PartidoCandidato" name="PartidoCandidato" required>
+            <option value="">Loading candidates..</option>
+        </select>
+
+        <button type="submit">Vote</button>
+    </form>
+
+    <div id="mensaje"></div>
+    <script src="js/vote.js"></script>
+</body>
+
+</html>

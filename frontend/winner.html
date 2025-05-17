@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voting System</title>
+  <link rel="stylesheet" href="css/winner.css">
+</head>
+<body>
+  <header>
+    <h1>Winner candidate</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="#">Register candidate</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="seccion activa">
+      <h2>Welcome to the Voting System</h2>
+      <p>Use the navigation bar to perform actions.</p>
+    </section>
+
+    <section id="ganador" class="seccion">
+      <h2>Winner</h2>
+      <button onclick="verGanador()">See winner</button>
+      <div id="ganadorResultado"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Voting System 2025</p>
+  </footer>
+
+  <script src="js/winner.js"></script>
+</body>
+</html>

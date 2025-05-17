@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/voter.css">
+  <title>Voting System</title>
+
+
+</head>
+<body>
+  <header>
+    <h1>Voting System</h1>
+    <nav>
+      <ul>
+         <li><a href="../index.html">Index</a></li>
+         <li><a href="voter_list.html" > List Voters </a></li>
+         <li><a href="../vote.html" > Register Vote </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="seccion activa">
+      <h2>Welcome to the Voting System</h2>
+      <p>Use the navigation bar to perform actions.</p>
+    </section>
+
+
+    <section id="votante" class="seccion">
+      <h2>Register Voter</h2>
+      <form id="formVotante">
+        <input type="text" id="nombreVotante" placeholder="Name" required />
+        <input type="email" id="emailVotante" placeholder="Email" required />
+        <input type="dni" id="dniVotante" placeholder="Identification number" required />
+        <button type="submit">Save voter</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; Voting System 2025</p>
+  </footer>
+
+  <script src="../js/voter.js"></script>
+</body>
+</html>
