@@ -21,10 +21,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         contenedor.appendChild(card);
       });
     } else {
-      contenedor.innerHTML = "<p>No hay candidatos registrados.</p>";
+      contenedor.innerHTML = "<p>There's no register candidate.</p>";
     }
   } catch (error) {
-    contenedor.innerHTML = "<p>Error al cargar los candidatos.</p>";
+    contenedor.innerHTML = "<p>Error loading candidates.</p>";
     console.error(error);
   }
 });
